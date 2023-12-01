@@ -156,6 +156,6 @@ public class Main {
 
         //Вывод кол-ва прослушиваний самого популярного трека артиста
         Statistics statistics = new Statistics();
-        System.out.println("\nКол-во прослушиваний самого популярного трека артиста: " + statistics.ListensMostPopularTrackArtist(myArtist));
+        System.out.println("\nКол-во прослушиваний самого популярного трека артиста: " + statistics.listensMostPopularTrackArtist(myArtist));
     }
 }
